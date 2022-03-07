@@ -1,0 +1,30 @@
+(orientations = 20, pixels_per_cell = (5, 5), cells_per_block = (2, 2), multichannel = True))
+train.py test.py
+24000 features
+
+22688
+14225
+14225 out of 22688 with 62.698342736248236% accuracy.
+
+(orientations = 5, pixels_per_cell = (10, 10), cells_per_block = (4, 4), multichannel = True)
+train1.py test1.py 
+
+22688
+14337
+14337 out of 22688 with 63.191995768688294% accuracy.
+
+(orientations = 4, pixels_per_cell = (10, 10), cells_per_block = (5, 5), multichannel = True))
+train2.py test2py
+
+22688
+14053
+14053 out of 22688 with 61.94023272214386% accuracy.
+
+(orientations = 4, pixels_per_cell = (20, 20), cells_per_block = (3, 3), multichannel = True))
+train3.py test3.py
+(In 'Final' folder)
+
+22688
+14236
+14236 out of 22688 with 62.746826516220025% accuracy.
+

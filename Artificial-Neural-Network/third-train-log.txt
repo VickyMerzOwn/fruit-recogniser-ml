@@ -1,0 +1,273 @@
+Third Log
+Metadata
+Epochs - 75
+Batch Size - 160
+Shuffled dataset
+
+--> Accuracy : 89.413%
+
+
+
+Done with Folder of Tomato 4, 100.0% accuracy.
+160 tested so far with 100.0% accuracy.
+Done with Folder of Apple Red Delicious, 83.13253012048193% accuracy.
+326 tested so far with 91.41104294478528% accuracy.
+Done with Folder of Tomato 3, 100.0% accuracy.
+572 tested so far with 95.1048951048951% accuracy.
+Done with Folder of Huckleberry, 100.0% accuracy.
+738 tested so far with 96.2059620596206% accuracy.
+Done with Folder of Blueberry, 94.15584415584416% accuracy.
+892 tested so far with 95.85201793721974% accuracy.
+Done with Folder of Pear Red, 78.37837837837837% accuracy.
+1114 tested so far with 92.36983842010773% accuracy.
+Done with Folder of Banana Lady Finger, 94.73684210526315% accuracy.
+1266 tested so far with 92.65402843601895% accuracy.
+Done with Folder of Melon Piel de Sapo, 88.21138211382113% accuracy.
+1512 tested so far with 91.93121693121694% accuracy.
+Done with Folder of Pear, 71.95121951219512% accuracy.
+1676 tested so far with 89.97613365155132% accuracy.
+Done with Folder of Cherry 1, 99.39024390243902% accuracy.
+1840 tested so far with 90.81521739130434% accuracy.
+Done with Folder of Strawberry, 81.70731707317073% accuracy.
+2004 tested so far with 90.06986027944112% accuracy.
+Done with Folder of Nut Forest, 78.89908256880734% accuracy.
+2222 tested so far with 88.97389738973898% accuracy.
+Done with Folder of Avocado, 96.5034965034965% accuracy.
+2365 tested so far with 89.4291754756871% accuracy.
+Done with Folder of Tomato 2, 85.33333333333334% accuracy.
+2590 tested so far with 89.07335907335907% accuracy.
+Done with Folder of Pomegranate, 82.92682926829268% accuracy.
+2754 tested so far with 88.70733478576615% accuracy.
+Done with Folder of Dates, 99.3975903614458% accuracy.
+2920 tested so far with 89.31506849315069% accuracy.
+Done with Folder of Carambula, 63.25301204819277% accuracy.
+3086 tested so far with 87.91315618924173% accuracy.
+Done with Folder of Potato Red Washed, 85.43046357615894% accuracy.
+3237 tested so far with 87.79734321902997% accuracy.
+Done with Folder of Granadilla, 100.0% accuracy.
+3403 tested so far with 88.39259476932119% accuracy.
+Done with Folder of Kohlrabi, 87.89808917197452% accuracy.
+3560 tested so far with 88.37078651685393% accuracy.
+Done with Folder of Tamarillo, 94.57831325301204% accuracy.
+3726 tested so far with 88.64734299516908% accuracy.
+Done with Folder of Pepper Red, 91.44144144144144% accuracy.
+3948 tested so far with 88.80445795339412% accuracy.
+Done with Folder of Fig, 82.47863247863248% accuracy.
+4182 tested so far with 88.45050215208035% accuracy.
+Done with Folder of Ginger Root, 74.74747474747475% accuracy.
+4281 tested so far with 88.1336136416725% accuracy.
+Done with Folder of Kiwi, 100.0% accuracy.
+4437 tested so far with 88.55082262790174% accuracy.
+Done with Folder of Cherry Wax Yellow, 100.0% accuracy.
+4601 tested so far with 88.95892197348402% accuracy.
+Done with Folder of Lemon, 100.0% accuracy.
+4765 tested so far with 89.3389296956978% accuracy.
+Done with Folder of Guava, 100.0% accuracy.
+4931 tested so far with 89.69783005475563% accuracy.
+Done with Folder of Apple Golden 2, 98.78048780487805% accuracy.
+5095 tested so far with 89.9901864573111% accuracy.
+Done with Folder of Pear Stone, 96.62447257383965% accuracy.
+5332 tested so far with 90.28507126781695% accuracy.
+Done with Folder of Apple Red 1, 76.21951219512195% accuracy.
+5496 tested so far with 89.86535662299855% accuracy.
+Done with Folder of Cauliflower, 92.73504273504274% accuracy.
+5730 tested so far with 89.9825479930192% accuracy.
+Done with Folder of Mandarine, 100.0% accuracy.
+5896 tested so far with 90.26458616010855% accuracy.
+Done with Folder of Quince, 96.98795180722891% accuracy.
+6062 tested so far with 90.44869679973606% accuracy.
+Done with Folder of Strawberry Wedge, 87.8048780487805% accuracy.
+6308 tested so far with 90.34559289790742% accuracy.
+Done with Folder of Pear Monster, 59.036144578313255% accuracy.
+6474 tested so far with 89.54278653073834% accuracy.
+Done with Folder of Raspberry, 100.0% accuracy.
+6640 tested so far with 89.80421686746988% accuracy.
+Done with Folder of Pitahaya Red, 81.92771084337349% accuracy.
+6806 tested so far with 89.61210696444314% accuracy.
+Done with Folder of Nut Pecan, 88.20224719101124% accuracy.
+6984 tested so far with 89.5761741122566% accuracy.
+Done with Folder of Apple Golden 3, 99.37888198757764% accuracy.
+7145 tested so far with 89.79706088173548% accuracy.
+Done with Folder of Redcurrant, 100.0% accuracy.
+7309 tested so far with 90.02599534820085% accuracy.
+Done with Folder of Apple Red Yellow 1, 90.2439024390244% accuracy.
+7473 tested so far with 90.03077746554263% accuracy.
+Done with Folder of Pepper Yellow, 100.0% accuracy.
+7695 tested so far with 90.31838856400259% accuracy.
+Done with Folder of Grape Pink, 95.1219512195122% accuracy.
+7859 tested so far with 90.41862832421428% accuracy.
+Done with Folder of Banana Red, 73.49397590361446% accuracy.
+8025 tested so far with 90.06853582554517% accuracy.
+Done with Folder of Cucumber Ripe 2, 100.0% accuracy.
+8181 tested so far with 90.25791468035692% accuracy.
+Done with Folder of Physalis, 100.0% accuracy.
+8345 tested so far with 90.44937088076692% accuracy.
+Done with Folder of Cherry Rainier, 93.4959349593496% accuracy.
+8591 tested so far with 90.53660807822139% accuracy.
+Done with Folder of Maracuja, 90.96385542168674% accuracy.
+8757 tested so far with 90.54470709146968% accuracy.
+Done with Folder of Chestnut, 71.24183006535948% accuracy.
+8910 tested so far with 90.21324354657688% accuracy.
+Done with Folder of Plum, 72.84768211920529% accuracy.
+9061 tested so far with 89.92384946473899% accuracy.
+Done with Folder of Potato Sweet, 50.66666666666667% accuracy.
+9211 tested so far with 89.28455108023016% accuracy.
+Done with Folder of Cucumber Ripe, 100.0% accuracy.
+9341 tested so far with 89.43367947757199% accuracy.
+Done with Folder of Hazelnut, 100.0% accuracy.
+9498 tested so far with 89.60833859759948% accuracy.
+Done with Folder of Nectarine, 35.97560975609756% accuracy.
+9662 tested so far with 88.69799213413371% accuracy.
+Done with Folder of Cherry Wax Black, 100.0% accuracy.
+9826 tested so far with 88.88662731528598% accuracy.
+Done with Folder of Cantaloupe 2, 99.39024390243902% accuracy.
+9990 tested so far with 89.05905905905905% accuracy.
+Done with Folder of Lychee, 100.0% accuracy.
+10156 tested so far with 89.23788893265066% accuracy.
+Done with Folder of Pepper Orange, 66.23931623931624% accuracy.
+10390 tested so far with 88.71992300288738% accuracy.
+Done with Folder of Clementine, 90.96385542168674% accuracy.
+10556 tested so far with 88.75521030693444% accuracy.
+Done with Folder of Watermelon, 82.80254777070064% accuracy.
+10713 tested so far with 88.66797349015215% accuracy.
+Done with Folder of Pear Kaiser, 73.52941176470588% accuracy.
+10815 tested so far with 88.52519648636154% accuracy.
+Done with Folder of Mangostan, 79.41176470588235% accuracy.
+10917 tested so far with 88.44004763213337% accuracy.
+Done with Folder of Cherry 2, 90.2439024390244% accuracy.
+11163 tested so far with 88.47979933709577% accuracy.
+Done with Folder of Pineapple Mini, 100.0% accuracy.
+11326 tested so far with 88.64559420801696% accuracy.
+Done with Folder of Rambutan, 80.48780487804879% accuracy.
+11490 tested so far with 88.52915578764143% accuracy.
+Done with Folder of Grape White, 100.0% accuracy.
+11656 tested so far with 88.69251887439945% accuracy.
+Done with Folder of Tomato Yellow, 100.0% accuracy.
+11809 tested so far with 88.83902108561267% accuracy.
+Done with Folder of Apple Braeburn, 71.34146341463415% accuracy.
+11973 tested so far with 88.59934853420195% accuracy.
+Done with Folder of Tomato Maroon, 99.21259842519686% accuracy.
+12100 tested so far with 88.7107438016529% accuracy.
+Done with Folder of Onion White, 93.83561643835617% accuracy.
+12246 tested so far with 88.77184386738527% accuracy.
+Done with Folder of Onion Red Peeled, 98.70967741935483% accuracy.
+12401 tested so far with 88.89605676961536% accuracy.
+Done with Folder of Mango, 77.71084337349397% accuracy.
+12567 tested so far with 88.74830906342007% accuracy.
+Done with Folder of Potato White, 98.66666666666667% accuracy.
+12717 tested so far with 88.86529841943855% accuracy.
+Done with Folder of Apple Crimson Snow, 91.8918918918919% accuracy.
+12865 tested so far with 88.90011659541392% accuracy.
+Done with Folder of Potato Red, 72.66666666666667% accuracy.
+13015 tested so far with 88.71302343449865% accuracy.
+Done with Folder of Corn Husk, 69.48051948051948% accuracy.
+13169 tested so far with 88.48811603007061% accuracy.
+Done with Folder of Cocos, 100.0% accuracy.
+13335 tested so far with 88.63142107236595% accuracy.
+Done with Folder of Mulberry, 96.34146341463415% accuracy.
+13499 tested so far with 88.72509074746277% accuracy.
+Done with Folder of Avocado ripe, 96.3855421686747% accuracy.
+13665 tested so far with 88.81814855470179% accuracy.
+Done with Folder of Tomato 1, 100.0% accuracy.
+13911 tested so far with 89.0158867083603% accuracy.
+Done with Folder of Passion Fruit, 98.19277108433735% accuracy.
+14077 tested so far with 89.12410314697735% accuracy.
+Done with Folder of Apple Granny Smith, 76.82926829268293% accuracy.
+14241 tested so far with 88.98251527280388% accuracy.
+Done with Folder of Beetroot, 62.0% accuracy.
+14391 tested so far with 88.7012716281009% accuracy.
+Done with Folder of Kumquats, 78.91566265060241% accuracy.
+14557 tested so far with 88.58968193996016% accuracy.
+Done with Folder of Grape White 2, 99.3975903614458% accuracy.
+14723 tested so far with 88.71153976771039% accuracy.
+Done with Folder of Apricot, 100.0% accuracy.
+14887 tested so far with 88.83589709142204% accuracy.
+Done with Folder of Eggplant, 53.205128205128204% accuracy.
+15043 tested so far with 88.46639633051919% accuracy.
+Done with Folder of Limes, 94.57831325301204% accuracy.
+15209 tested so far with 88.53310539811955% accuracy.
+Done with Folder of Corn, 46.0% accuracy.
+15359 tested so far with 88.11771599713522% accuracy.
+Done with Folder of Grape White 4, 100.0% accuracy.
+15517 tested so far with 88.23870593542567% accuracy.
+Done with Folder of Grape White 3, 100.0% accuracy.
+15681 tested so far with 88.36171162553408% accuracy.
+Done with Folder of Tomato Heart, 96.05263157894737% accuracy.
+15909 tested so far with 88.47193412533785% accuracy.
+Done with Folder of Apple Pink Lady, 76.31578947368422% accuracy.
+16061 tested so far with 88.3568893593176% accuracy.
+Done with Folder of Plum 3, 98.02631578947368% accuracy.
+16365 tested so far with 88.53651084631836% accuracy.
+Done with Folder of Pear Williams, 98.19277108433735% accuracy.
+16531 tested so far with 88.63347649869941% accuracy.
+Done with Folder of Tomato not Ripened, 89.24050632911393% accuracy.
+16689 tested so far with 88.6392234405896% accuracy.
+Done with Folder of Peach 2, 99.1869918699187% accuracy.
+16935 tested so far with 88.79244168881016% accuracy.
+Done with Folder of Pomelo Sweetie, 98.0392156862745% accuracy.
+17088 tested so far with 88.875234082397% accuracy.
+Done with Folder of Salak, 100.0% accuracy.
+17250 tested so far with 88.97971014492754% accuracy.
+Done with Folder of Grapefruit Pink, 100.0% accuracy.
+17416 tested so far with 89.0847496554892% accuracy.
+Done with Folder of Apple Golden 1, 81.25% accuracy.
+17576 tested so far with 89.01342740100137% accuracy.
+Done with Folder of Banana, 78.91566265060241% accuracy.
+17742 tested so far with 88.9189493856386% accuracy.
+Done with Folder of Apple Red 2, 90.2439024390244% accuracy.
+17906 tested so far with 88.9310845526639% accuracy.
+Done with Folder of Onion Red, 88.0% accuracy.
+18056 tested so far with 88.92334957908729% accuracy.
+Done with Folder of Physalis with Husk, 99.39024390243902% accuracy.
+18220 tested so far with 89.01756311745335% accuracy.
+Done with Folder of Apple Red Yellow 2, 100.0% accuracy.
+18439 tested so far with 89.14800151852053% accuracy.
+Done with Folder of Grape Blue, 99.6951219512195% accuracy.
+18767 tested so far with 89.33233867959717% accuracy.
+Done with Folder of Lemon Meyer, 100.0% accuracy.
+18933 tested so far with 89.42587017377066% accuracy.
+Done with Folder of Plum 2, 92.25352112676056% accuracy.
+19075 tested so far with 89.44692005242464% accuracy.
+Done with Folder of Pepino, 100.0% accuracy.
+19241 tested so far with 89.53796580219323% accuracy.
+Done with Folder of Tangelo, 100.0% accuracy.
+19407 tested so far with 89.62745401143917% accuracy.
+Done with Folder of Cactus fruit, 92.7710843373494% accuracy.
+19573 tested so far with 89.65411536300006% accuracy.
+Done with Folder of Papaya, 98.17073170731707% accuracy.
+19737 tested so far with 89.72488220094239% accuracy.
+Done with Folder of Apple Red 3, 53.47222222222222% accuracy.
+19881 tested so far with 89.46230068910015% accuracy.
+Done with Folder of Walnut, 97.59036144578313% accuracy.
+20130 tested so far with 89.56284153005465% accuracy.
+Done with Folder of Pear Abate, 72.28915662650603% accuracy.
+20296 tested so far with 89.42156089869925% accuracy.
+Done with Folder of Pear 2, 39.6551724137931% accuracy.
+20528 tested so far with 88.85911925175371% accuracy.
+Done with Folder of Pear Forelle, 96.58119658119658% accuracy.
+20762 tested so far with 88.94615162315769% accuracy.
+Done with Folder of Pineapple, 96.3855421686747% accuracy.
+20928 tested so far with 89.00516055045871% accuracy.
+Done with Folder of Tomato Cherry Red, 100.0% accuracy.
+21092 tested so far with 89.09065048359568% accuracy.
+Done with Folder of Cherry Wax Red, 100.0% accuracy.
+21256 tested so far with 89.17482122694769% accuracy.
+Done with Folder of Mango Red, 90.84507042253522% accuracy.
+21398 tested so far with 89.18590522478736% accuracy.
+Done with Folder of Orange, 100.0% accuracy.
+21558 tested so far with 89.26616569255033% accuracy.
+Done with Folder of Nectarine Flat, 90.0% accuracy.
+21718 tested so far with 89.27157196795285% accuracy.
+Done with Folder of Kaki, 100.0% accuracy.
+21884 tested so far with 89.35295192834948% accuracy.
+Done with Folder of Pepper Green, 97.97297297297297% accuracy.
+22032 tested so far with 89.41085693536675% accuracy.
+Done with Folder of Grapefruit White, 100.0% accuracy.
+22196 tested so far with 89.48909713461886% accuracy.
+Done with Folder of Peach, 91.46341463414635% accuracy.
+22360 tested so far with 89.50357781753131% accuracy.
+Done with Folder of Cantaloupe 1, 100.0% accuracy.
+22524 tested so far with 89.580003551767% accuracy.
+Done with Folder of Peach Flat, 66.46341463414635% accuracy.
+22688 tested so far with 89.41290550070522% accuracy.
+[Finished in 795.7s]

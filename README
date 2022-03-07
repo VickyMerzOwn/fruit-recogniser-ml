@@ -1,0 +1,135 @@
+Problem Statement :
+
+Given a dataset of fruits, divided into Training and Test subsets, to develop practical
+models based on the theoretical discussions had in class.
+
+Briefly, the dataset consists of 131 classes of fruits and 90,380 images.
+Training subset consists of 67,692 images and the Test subset consists of 22,688 images.
+
+In the course of this assignment, three approaches have been used to classify the images, 
+as described :
+1). Learning by Prototyping
+2). Learning by k-Nearest Neighbors
+3). Multi-Layer Perceptron - (Artificial Neural Network)
+
+1). Learning by Prototyping :
+	The implementations of this category can be found in the 'Prototyping' directory.
+	There are multiple implementations differing only in the number of features extracted per
+	image.
+	For all the images trained for use in Learning by Prototyping and by k-Nearest-Neighbors,
+	the HoG feature descriptor is used. (described below)
+	The different parameter values passed for each of the implementations and the results are 
+	described in the 'prototypes-accuracies.txt' file of that directory.
+	The highest accuracy obtained was 63.19%. However, this implementation was slow due to the
+	number of features extracted being very high (tens of thousands). The final implementation
+	which conserves time while passing on extremely less increase of accuracy, worked on 324 
+	features extracted as Histogram of Gradients while giving 62.74% accuracy.
+
+	The prototyping method used was essentially the mean of all feature vectors extracted of a particular class of fruits. 
+
+	A mistake I made, earlier into the assignment was that I didn't consider the different 
+	rotations of images available of each class and prepared a single prototype for the 
+	entire class. However, to correct this, I then prepared a prototype for each available 
+	rotation of the fruit. There were 4 rotations in general, so 4 prototypes for each class.
+	It is worth noting that not all classes in the training dataset had all 4 rotations.
+
+	During the training by prototyping, all the feature vectors were collected in a dictionary
+	whose keys were the class of fruits and values were the list of list of all the vectors 
+	of that class. Such a data structure was pickled and stored in the 'fruits.pkl' file of 
+	that directory. The prototypes which was also a dictionary were pickled and stored in the 
+	file named 'prototypes.pkl'. This dictionary's keys were the different classes and the 
+	values were a list of 4 lists, each of which was the prototype of the particular rotation 
+	of that class. 
+
+2). Learning by k-Nearest-Neighbors
+	We are calculating the distances with all the data points in the training set. 
+	And finding the closest n to get the classification of the given object in the test set. 
+	The KNN implemented here is very rudimentary to keep the training time within practical
+	limits. 
+	This implementation of KNN took 14,400 seconds to test.
+	The overall accuracy obtained was 87.482%
+	The knntrain.py file contains the code used to train the model.
+	The knn.py files contains the code used to test the model of the Test Subset of the dataset.
+	Features were extracted using HoG method.
+
+3). Multi-Layered Perceptron
+
+	The perceptron is, at its essence an algorithm, a learning algorithm for the neural model
+	of learning. The neural model of learning is based on the network of neurons that can be
+	found in the human body, belonging to the Central Nervous System. Say that the perceptron
+	is made up of many neuron like objects that we call nodes. These nodes each have a 
+	characteristic property such that, given multiple inputs, each node applies a function
+	with weights for each of the inputs and outputs a single value. This function is known as
+	the activation function.
+
+	Earlier models of perceptrons, were made of single layers, i.e. a single node, that weighted
+	the inputs and applied the function's formula. However, soon multi-layered
+	models developed. In the multi layer model, there are 3 categories of layers : the 
+	input layer, the hidden layers and the output layer. The input layer is, as the name
+	suggests, the outer layer of nodes (neurons) which face the input. The outputs of each 
+	of the nodes of the input layer are input to the first hidden layer. In such a manner, 
+	numbers flow through the 'neural' network (network of neurons) and reach the output
+	layer. The number of nodes in the output layer depends on the number of classes among
+	which to classify the neural network.
+
+	In our case, there are 131 classes, and hence the output layer had 131 units. There 
+	are 3 layers in total, 1 input, 1 hidden and 1 output. In our implementation, first the
+	image was resized to 25 x 25 and features were extracted by simple flattening. This is 
+	nothing but combining RGB values of each pixel into a single dimension.
+	So the number of features per vector was 25*25*3 = 1875.
+
+	The input layer has 300 neurons and the activation function being ReLU (Rectified Linear
+	Units). The second (hidden) layer has 256 neurons with the same activation function. The 
+	third and output layer had 131 neurons (since there are 131 classes) and the activation 
+	function being softmax (to get probability like values, sum of all which is 1).
+
+	There are 2 types of neural networks : Artificial Neural Network and Convolutional Neural
+	Network. The implementation here is that of an Artificial Neural Network. The fundamental 
+	difference between both is that, in an artificial neural network, all the individual outputs
+	of each neuron of a layer are connected to each neuron of the next layer. As opposed to this,
+	in a Convolutional Neural Network, it is not necassary that each output of a preceeding layer
+	is connected to each of the neurons of a given layer. In other words, weights of some inputs
+	are set to zero in a CNN.
+
+	Once the layer is defined, we go to other aspects of the supervised learning method through
+	neural networks. This involves correction of the errors obtained in each iteration of the
+	training dataset. The error function used in this particular multi-class classification is 
+	known as categorical cross-entropy. And the error correction mechanism implemented is that
+	of stochastic gradient descent.
+
+	In general, the highest accuracy obtained for the neural network model was 91.53% training
+	with batch sizes of 32 and for 100 epochs.
+	Choosing number of epochs is to get the ideal fitting and avoid overfitting or underfitting.
+	Various combinations of epochs and batch sizes were tried and may be found in the logs.
+	The different model files with "*.h5" extensions can also be found in the ANN implementation
+	directory. The log files contain information about the logs in the metadata section.
+
+
+
+
+Appendix
+
+* HoG descriptor
+	This method evaluated gradients of each pixel in a square (or rectangle) of pixels called a cell.
+	The gradients are evaluated for all pixels in a group of cells called a block. These gradients
+	are put into buckets of orientations to form histograms for each bucket of orientations.
+	These orientation-gradient values are normalised over an entire block and put into the feature vector.
+	Each of these attributes can be understood from the feature extraction by the hog descriptor method
+	in the codes for Prototyping method and KNN method.
+
+* Accuracy Formula
+	Accuracy is simply evaluated as the ratio of correct predictions in the test datast to the total number
+	of pictures in the dataset.
+
+It is also worth noting, that several classes within the dataset had similar images. This could be having an effect
+on the prediction and hence the accuracy. Perfecting a model to give highest possible accuracy could take several 
+attempts. From the attempts we have made, this was our accuracy.
+
+File paths may have to be changed to reach the fruit dataset.
+
+
+
+
+
+
+
